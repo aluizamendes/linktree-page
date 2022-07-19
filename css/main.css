@@ -59,17 +59,19 @@ p {
 
 .img-profile img {
   position: absolute;
-  top: 6px;
-  left: 6px;
+  /* Center the element */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 999;
 }
 
 .circle {
-  width: 132px;
-  height: 132px;
+  width: 120px;
+  height: 120px;
   background: linear-gradient(122.32deg, #E42424 13.13%, #E8CC76 56.27%, #1C8DCC 95.15%);
   border-radius: 50%;
-  animation: circleRotate 3s linear infinite;
+  animation: circleRotate 4s linear infinite;
 }
 
 @keyframes circleRotate {
@@ -101,19 +103,19 @@ p {
   padding: 1.2rem 2.4rem;
   display: flex;
   gap: 1rem;
-  transition: .5s ease;
+  transition: .4s ease;
 }
 
 
 .card_links--item:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 .card_links--item a {
   text-decoration: none;
   font-family: 'Space Mono', monospace;
   color: #5e6062;
-
+  font-size: 1.4rem;
 }
 
 i {
