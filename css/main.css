@@ -1,0 +1,13 @@
+:root {
+  --clr-red: #E42424;
+  --clr-blue: #1C8DCC;
+  --clr-yellow: #E8CC76;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
